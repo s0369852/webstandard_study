@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>레이아웃1</title>
+
+    <style>
+        #wrap {width: 1000px; height: 900px; margin: 0 auto; font-size: 40px; color: #ffffff; text-align: center; text-transform: uppercase;}
+        #header {width: 1000px; height: 100px; background: #2e7d32; line-height: 100px;}
+        #nav {width: 1000px; height: 100px; background: #388e3c; line-height: 100px;}
+        #side {float: left; width: 300px; height: 600px; background: #43a047; line-height: 600px;}
+        #contents {float: left; width: 700px; height: 600px; background: #4caf50; line-height: 600px;}
+        #footer {float: left; width: 1000px; height: 100px; background: #66bb6a; line-height: 100px;}
+    </style>
+
+    <!-- margin = block요소의 바깥 여백을 설정해준다. block구조를 가운데정렬 하고 싶을때 margin값은 "0, auto" -->
+    <!-- 글자를 한가운데 오게 하고 싶을때 line-height를 height값 만큼 주면 가운데로 오게 할 수 있다.(단, 글자가 한줄일 경우에만 가능) -->
+
+</head>
+<body>
+    <div id="wrap">
+        <div id="header">header</div>
+        <div id="nav">NAV</div>
+        <div id="side">SIDE</div>
+        <div id="contents">CONTENTS</div>
+        <div id="footer">FOOTER</div>
+    </div>
+</body>
+</html>

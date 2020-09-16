@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>레이아웃5</title>
+
+    <style>
+        * {margin: 0; padding: 0;}
+        /* 실제 작업할때는 "*(전체선택자)"를 사용하지 않는다.  */
+        #wrap {font-size: 40px; color: #ffffff; text-align: center; text-transform: uppercase;}
+        #header-wrap {background-color: #8d6e63;}
+        #banner-wrap {background-color: #a1887f;}
+        #content-wrap {background-color: #bcaaa4;}
+        #footer-wrap {background-color: #d7ccc8;}
+        
+        .header-container {margin: 0 auto; width: 1200px; height: 100px; line-height: 100px; background-color: #3e2723;}
+        .banner-container {margin: 0 auto; width: 1200px; height: 300px; line-height: 300px; background-color: #4e342e;}
+        .content-container {margin: 0 auto; width: 1200px; height: 500px; line-height: 500px; background-color: #5d4037;}
+        .footer-container {margin: 0 auto; width: 1200px; height: 100px; line-height: 100px; background-color: #6d4c41;}
+
+    </style>
+
+<!-- 웹페이지에는 기본간격이 존재한다. 4px정도. 실제 작업을 하게 되면 이 간격을 초기화 시켜줘야 한다.  -->
+<!-- 전체영역이 들어간 사아트 -> 해상도에 상관없이 화면에 꽉차게 나오는 부분. -->
+<!-- container영역 -> 최소 해상도를 설정하여 컨텐츠들이 들어있는 부분. -->
+<!-- html은 DOM구조이기 때문에 부모, 자식간의 관계가 정확하게 되어있어야 한다. -->
+<!-- width:100% -> 기본값이기 때문에 안써줘도 된다. -->
+<!-- 자식에게 height값이 있으면 부모는 굳이 없어도 된다. 자식값으로 대신하기 때문. 부모값이 자식값 보다 클 경우에는 넣어줘야 한다. -->
+
+</head>
+<body>
+    <div id="wrap">
+        <div id="header-wrap">
+            <div class="header-container">header</div>
+        </div>
+        <div id="banner-wrap">
+            <div class="banner-container">banner</div>
+        </div>
+        <div id="content-wrap">
+            <div class="content-container">content</div>
+        </div>
+        <div id="footer-wrap">
+            <div class="footer-container">footer</div>
+        </div>
+    </div>
+</body>
+</html>
