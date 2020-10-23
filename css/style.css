@@ -39,7 +39,7 @@
     background: #f6fdff;
 }
 #cont_title {/*width: 100%; height: 200px; background: #444444;*/ background: #eaf7fd;}
-#cont_banner {/*width: 100%; height: 200px; background: #555555;*/ background: #dceff7;}
+#cont_banner {/*width: 100%; height: 200px; background: #555555;*/ background: #fffde7;}
 #cont_content {/*width: 100%; height: 200px; background: #666666;*/ background: #f6fdff;}
 /* 영역을 잡아줄 때는 항상 background를 이용해서 확실하게 잡혔는지 확인해 보는 것이 중요하다. */
 
@@ -62,7 +62,7 @@
     display: inline-block; 
     margin-top: 40px;
     padding: 5px 20px 6px 20px;  
-    background-color: #4aa8d4; 
+    background-color: #ffc107; 
     color: #ffffff;
     font-size: 28px;  
     font-weight: normal; 
@@ -72,7 +72,7 @@
     display: inline-block;
     margin-top: -5px;
     padding: 5px 20px 6px 20px;
-    background: #2698cb;
+    background: #ffb300;
     font-size: 18px;
     color: #ffffff;
 }
@@ -138,7 +138,7 @@
     letter-spacing: 2px;
     font-family: 'East Sea Dokdo', cursive;
     font-size: 40px;
-    color: #2c94c4;
+    color: #feca28;
 }
 .title .btn {
     position: absolute;
@@ -275,14 +275,14 @@
     line-height: 0;
     /* fz:0, lh:0 => text를 없애주기 위한 값 */
     cursor: pointer;
-    background: #5dbfeb;
+    background: #ffca28;
     border-radius: 50%;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
 }
-.banner .slick-dots li.slick-active button {background: #2b91c8;}
+.banner .slick-dots li.slick-active button {background: #ff9800;}
 
 
 
@@ -331,7 +331,7 @@
 .content .column .icon_title {
     padding-left: 70px;
     font-size: 16px;
-    color: #2c94c4;
+    color: #feca28;
 }
 .content .column .icon_des {
     margin-bottom: 15px; /*게시판의 글을 띄우는데 개별로 다주는 비효율을 없애기 위해. 한번에 다 줄 수 있는 방법.*/
@@ -351,7 +351,7 @@
     padding-bottom: 3px;
     font-size: 14px;
     font-weight: bold;
-    color: #0093bd;
+    color: #ffab41;
 }
 .notice ul li {
     padding-left: 8px;
@@ -389,7 +389,7 @@
     padding-bottom: 3px ;
     font-size: 14px;
     font-weight: bold; 
-    color: #0093bd;
+    color: #ffab41;
 }
 .notice2 li {
     padding-left: 8px;
@@ -441,7 +441,7 @@ inline-flex => inline-flex, 다만 float 은 이러한 요소에 효과가 없�
     padding-bottom: 3px;
     font-size: 14px;
     font-weight: bold;
-    color: #0093bd;
+    color: #ffab41;
 }
 .notice3 li {
     position: relative;
@@ -452,7 +452,7 @@ inline-flex => inline-flex, 다만 float 은 이러한 요소에 효과가 없�
     top: 0;
     left: 0;
     width: 50px;
-    border: 1px solid #0093bd;
+    border: 1px solid #ffab41;
 }
 .notice3 li a strong {
     display: block;
@@ -496,7 +496,7 @@ inline-flex => inline-flex, 다만 float 은 이러한 요소에 효과가 없�
 .login_header .lh_check .input_check {vertical-align: -2px;} /* 체크박스와 글자를 세로 정렬시키기 위한 것. */
 .login_header .lh_ip {float: left;}
 .login_header .lh_ip em {
-    color: #0093bd;
+    color: #ffab41;
     text-decoration: underline ;
 }
 
@@ -528,7 +528,7 @@ inline-flex => inline-flex, 다만 float 은 이러한 요소에 효과가 없�
     padding-bottom: 4px;
     font-size: 14px;
     font-weight: 700;
-    color: #0093bd;
+    color: #ffab41;
 }
 .popup ul {overflow: hidden;}
 .popup li {
@@ -546,7 +546,7 @@ inline-flex => inline-flex, 다만 float 은 이러한 요소에 효과가 없�
     padding-bottom: 3px;
     font-size: 14px;
     font-weight: bold;
-    color: #0099bc;
+    color: #ffab41;
 }
 .notice_hover ul {overflow: hidden;}
 .notice_hover li {
@@ -635,7 +635,7 @@ inline-flex => inline-flex, 다만 float 은 이러한 요소에 효과가 없�
     margin-bottom: -1px;
     /* margin-right: -1px;을 사용하는 경우는 두줄 효과를 한줄로 보이게 해주는 경우에 사용 */
 }
-.tab_menu ul li.active {background: #2c94c4;}
+.tab_menu ul li.active {background: #feca28;}
 .tab_menu ul li a {
     display: block; 
     padding: 5px 10px;
@@ -671,9 +671,9 @@ inline-flex => inline-flex, 다만 float 은 이러한 요소에 효과가 없�
     border-bottom: 1px solid #ccc;    
     font-size: 14px;
     font-weight: 700;
-    color: #0093bc;
+    color: #ffab41;
 }
-.notice4 h4 em {color: #cf3293;}
+.notice4 h4 em {color: #9c27b0;}
 .notice4 ul {padding: 10px;}
 .notice4 li {
     overflow: hidden;
@@ -711,7 +711,7 @@ inline-flex => inline-flex, 다만 float 은 이러한 요소에 효과가 없�
     padding: 10px 0 8px 11px;
     font-size: 14px;
     font-weight: bold;
-    color: #0093bd;
+    color: #ffab41;
     
 
 }
@@ -796,7 +796,7 @@ inline-flex => inline-flex, 다만 float 은 이러한 요소에 효과가 없�
     top: 50px;
     left: 50px;
     width: 700px;
-    border: 10px solid #dceff7;
+    border: 10px solid #fffde7;
     box-shadow: 3px 3px 10px rgba(0,0,0,.4);
 }
 
@@ -811,7 +811,7 @@ inline-flex => inline-flex, 다만 float 은 이러한 요소에 효과가 없�
     top: 20px;
     right: 20px;
     color: #ffffff;
-    background: #0093bc;
+    background: #ffab41;
 }
 #layer .close:hover {
     text-decoration: underline;
